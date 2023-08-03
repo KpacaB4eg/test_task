@@ -1,0 +1,113 @@
+@import "../../assets/style/varibles";
+
+.loginPageWrapper {
+  display: flex;
+  height: 100vh;
+  justify-content: flex-start;
+}
+
+.login-page-tabs {
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: @tab_text_color;
+}
+
+.confirm-registration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 696px;
+}
+
+.confirm-registration-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 72px;
+}
+
+.confirm-registration-text {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  & span {
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: @secondary_extra_light;
+  }
+}
+
+.loginSider {
+  width: 600px;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(180deg, #8892FF 0%, #6D6BE5 18.75%);
+}
+
+.loginContent {
+  margin-top: 92px;
+  display: flex;
+  justify-content: center;
+
+
+}
+@media screen and (min-width: 1200px) {
+  .loginContent {
+    margin-top: 92px;
+    display: flex;
+    justify-content: center;
+    width: calc(100vw - 600px);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .loginContent {
+    margin-top: 92px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+.tabContainer {
+  width: 336px;
+
+  .ant-tabs-nav {
+    width: 100% !important;
+  }
+
+  .ant-tabs-tab {
+    display: block; /* centers text inside tabs */
+    flex: 1;
+    justify-content: center;
+  }
+
+  .ant-tabs-nav > div:nth-of-type(1) {
+    display: unset !important;
+    width: 100% !important;
+  }
+}
+
+.login-page-divider {
+  & span {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: @divider_text_color;
+  }
+}
+
+.login-other-auth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

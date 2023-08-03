@@ -1,0 +1,47 @@
+@import "../../assets/style/varibles";
+
+.registration-page-wrapper {
+  display: flex;
+  height: 100vh;
+  justify-content: flex-start;
+
+  .sider {
+    width: 480px;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(180deg, #8892FF 0%, #6D6BE5 18.75%);
+  }
+
+  .content {
+    margin-left: 24px;
+    margin-top: 48px;
+
+    .footter {
+      position: absolute;
+      bottom: 24px;
+
+      .container {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .content, .content .footter {
+    width: calc(100vw - 528px);
+  }
+  .registration-page-wrapper .content .profile-form {
+    width: 576px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .content, .content .footter {
+    width: calc(100vw - 48px);
+  }
+  .registration-page-wrapper .content .profile-form {
+    width: 100%;
+  }
+}

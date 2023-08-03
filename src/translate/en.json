@@ -1,0 +1,84 @@
+{
+  "login_tab_login_label": "Login",
+  "login_tab_registration_label": "Registration",
+  "login_email_text": "E-mail",
+  "login_email_validate_text": "Please input your email",
+  "login_email_placeholder": "Input your email",
+  "login_password_text": "Password",
+  "login_password_validate_text": "Please input your password!",
+  "login_password_placeholder": "Input your password",
+  "login_confirm_password_text": "Confirm password",
+  "login_button_text": "Login",
+  "login_divider_text": "Or login with",
+  "logout": {
+    "button_text": "Log Out",
+    "main_text": "Sign out confirmation",
+    "secondary_text": "Are you sure you want to log out of your account?",
+    "button_confirm": "Continue",
+    "button_cancel": "Go out"
+  },
+
+
+  "registration_email_text": "E-mail",
+  "registration_email_validate_text": "Please input your email",
+  "registration_email_placeholder": "Input your email",
+  "registration_password_text": "Create a password",
+  "registration_password_validate_text": "Please input your password",
+  "registration_password_placeholder": "Input your password",
+  "registration_confirm_password_text": "Confirm password",
+  "registration_confirm_password_validate_text_empty": "Please input your password",
+  "registration_confirm_password_validate_text_not_equal": "The password that you entered do not match!",
+  "registration_confirm_password_placeholder": "Confirm your password",
+  "registration_button_text": "Register",
+  "registration_confirm_message_texts": {
+    "text_1": "The account has been successfully registered.",
+    "text_2": "An email has been sent to your E-Mail with a link to confirmation"
+  },
+
+  "profile" : {
+    "user_profile": "User profile",
+    "sider": {
+      "main_text": "User registration",
+      "secondary_text": "Fill in information about yourself to start using all the benefits of the platform"
+    },
+    "form": {
+      "surname": "Surname",
+      "surname_validate": "Input your Surname",
+      "surname_placeholder": "Input your Surname",
+      "name": "Name",
+      "name_validate": "Input your Name",
+      "name_placeholder": "Input your Name",
+      "last_name": "Last name",
+      "last_name_validate": "Input your Last name",
+      "last_name_placeholder": "Input your Last name",
+      "date_of_birth": "Date of Birth",
+      "date_of_birth_validate": "Date of Birth",
+      "date_of_birth_placeholder": "Date of Birth",
+      "gender": "Gender",
+      "gender_select" : {
+        "gender_male": "Male",
+        "gender_female": "Female",
+        "gender_another": "Another"
+      },
+      "gender_validate": "Gender",
+      "gender_placeholder": "Gender",
+      "phone": "Phone",
+      "phone_validate": "Phone",
+      "phone_placeholder": "Phone",
+      "email": "E-Mail"
+    }
+  },
+
+  "sign_in_text": "Sign in",
+  "sign_in_context_text": "Enter your E-mail and password to start using all the benefits of the platform:",
+  "sign_in_items": {
+    "hr_automation": "HR automation",
+    "integration_with_job_portals": "Integration with job portals",
+    "personal_assessment": "Personal assessment",
+    "outlook": "Synchronization with Outlook",
+    "data_security": "Data security",
+    "resume_parsing": "Resume parsing",
+    "multilingual": "Multilingual",
+    "reporting": "Reporting constructor"
+  }
+}

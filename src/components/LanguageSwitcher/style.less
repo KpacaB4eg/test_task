@@ -1,0 +1,36 @@
+@import "../../assets/style/varibles";
+
+.language-rapper {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+
+  .language-selector {
+    .ant-select-selector {
+      border-color: transparent !important;
+      background: rgba(237, 242, 255, 0.70) !important;
+      & :hover {
+        background: transparent !important;
+      }
+    }
+
+    .ant-select-selection-item {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px;
+      color: @language_text_color;
+    }
+
+    .ant-select {
+      border-color: transparent !important;
+      & :hover, & :focus {
+        border-color: transparent !important;
+      }
+    }
+  }
+}
+
